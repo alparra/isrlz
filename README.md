@@ -32,14 +32,14 @@ In order to decompress ```compressed source file``` related to ```reference file
 ```bash
 isrlz decompress [reference filename] [compressed source filename] [output filename] 
 ```
-In order to access one or more characters of the original ```source file```` by its index, type: 
+In order to access one or more characters of the original ```source file``` by its index, type: 
 ```bash
 isrlz access [reference filename] [compressed source filename] [index] (optional)[range length] 
 ```
 [range length] is optional in ACCESS action. By default, only 1 char is returned.  
 
  
-In order to obtain information about the compression, you can use the action TEST. This action will return time measures for access queries (length 1 and length range), compression time, and some statistics of the compression. Type: 
+In order to obtain information about the compression, you can use the action TEST. This action will return time measures for access queries (length 1 and length range), compression time, and some statistics of the compression: 
 ```bash
 islrz test [reference filename] [source filename] [bin factor] [nr of index trials] [nr of range trials] [range length]
 ```
