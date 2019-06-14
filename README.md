@@ -6,8 +6,8 @@ _Interpolation Search - Relative Lempel Ziv_ is a C implementation for compressi
 
 
 ```bash
-git clone http://github.com/alparra/isrlz
-cd code
+git clone https://github.com/alparra/isrlz
+cd isrlz/code
 make
 ```
 
